@@ -50,7 +50,7 @@ class BoltStubService:
 
     def __init__(self, *scripts, listen_addr=None, exit_on_disconnect=True, timeout=None):
         if listen_addr:
-            listen_addr = Address(listen_addr)
+            listen_addr = Address.parse(listen_addr)
         else:
             listen_addr = Address(("localhost", self.default_base_port))
         self.exit_on_disconnect = exit_on_disconnect
