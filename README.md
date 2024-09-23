@@ -1,3 +1,9 @@
+# Archival Notice
+
+> [!NOTE]
+> This project has been merged into TestKit: https://github.com/neo4j-drivers/testkit
+
+
 # Bolt Stub
 
 Bolt Stub is a scriptable Neo4j server simulator designed as a testing resource for client software.
